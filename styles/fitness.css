@@ -578,6 +578,10 @@ z-index: 1;
 
 }
 
+.bmi-cal-chart{
+  width: 50%;
+}
+
 .bmi-cal{
   background-color: rgb(34, 34, 34);
   padding: 80px 100px;
@@ -590,10 +594,6 @@ z-index: 1;
   gap: 30px;
 
 
-}
-
-.bmi-cal-chart{
-  width: 50%;
 }
 
 .bmi-chart-title{
@@ -619,12 +619,9 @@ td{
 
 
 tbody tr td{
-  color: rgb(74, 74, 74);
+  color: rgb(103, 103, 103);
 }
 
-.bmi-cal-chart{
-  width: 50%;
-}
 
 .cal-your-bmi-title{
   color: rgb(255, 255, 255);
@@ -633,7 +630,6 @@ tbody tr td{
 }
 
 .cal-your-bmi-subtitle{
-  width: 100%;
   color: rgb(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
@@ -710,7 +706,7 @@ tbody tr td{
   border: none;
   font-size: 16px;
   font-weight: 400;
-  color: rgb(255, 255, 255, 0.6);
+  color: rgb(115, 114, 114);
 }
 .gender:focus{
   outline: none;
@@ -719,6 +715,25 @@ tbody tr td{
 .gender option{
   color: #000;
 }
+
+.activity{
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color:rgb(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(115, 114, 114);
+}
+
+.activity:focus{
+  outline: none;
+}
+.activity option{
+  color: #000;
+}
+
 
 .cal-btn{
   font-size: 18px;
@@ -1337,30 +1352,27 @@ td{
 }
 
 .bmi-chart-box{
- flex-direction: column;
-
-}
-
-.bmi-chart-title{
-  font-size: 20px;
+  flex-direction: column;
+  
 }
 
 .bmi-cal-chart{
-  margin-bottom: 40px;
-
-}
-
-.bmi-form{
   width: 100%;
 }
 
+
 .cal-your-bmi-title{
-  font-size: 20px;
-}
-#gender{
-  width: 239px;
+  width: 100%;
 }
 
+.cal-your-bmi{
+  width: 100%;
+}
+
+.cal-your-bmi-subtitle{
+  width: 100%;
+  margin-bottom: 40px;
+}
 
 /* bmi section end  */
 
