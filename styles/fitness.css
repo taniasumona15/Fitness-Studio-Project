@@ -586,9 +586,14 @@ z-index: 1;
 
 .bmi-chart-box{
   display: flex;
-  justify-content: space-evenly;
-  gap: 20%;
+  justify-content: space-between;
+  gap: 30px;
 
+
+}
+
+.bmi-cal-chart{
+  width: 50%;
 }
 
 .bmi-chart-title{
@@ -636,61 +641,90 @@ tbody tr td{
 
 }
 
-.bmi-form{
+/* .bmi-form{
   display: flex;
   flex-direction: column;
   gap: 15px;
   width: 100%;
+} */
+
+.cal-your-bmi{
+  width: 50%;
+
 }
 
-.bmi-form input[type="text"], [id="gender"],[id="activity"]{
+
+.bmi-form-input-1{
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+  
+
+.height, .weight{
+  width: 50%;
+  padding: 10px;
   border-radius: 8px;
   background-color:rgb(255, 255, 255, 0.1);
-  /* padding: 10px 40px; */
-  /* display: block; */
-  /* height: 40px; */
-  width: 93%;
-  padding: 20px 15px;
+  border: none;
   font-size: 16px;
   font-weight: 400;
-  border: none;
   color: rgb(255, 255, 255, 0.6);
-  /* margin-right: 10px; */
-  
-  
-  
 
 }
 
+.height:focus, .weight:focus{
+  outline: none;
+}
 
 
-.bmi-form-input-1 , .bmi-form-input-2{
+.bmi-form-input-2{
+  margin-bottom: 10px;
   display: flex;
-
-  gap: 22px;
   width: 100%;
-
-}
-#gender{
-  width: 235px;
+  gap: 10px;
 }
 
-#activity{
-  width: 100%;
+.age{
+  width: 47%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color:rgb(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.6);
 }
 
-#opt{
+.age:focus{
+  outline: none;
+}
+
+.gender{
+  width: 50%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color:rgb(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.6);
+}
+.gender:focus{
+  outline: none;
+}
+
+.gender option{
   color: #000;
-
 }
-
 
 .cal-btn{
   font-size: 18px;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  /* padding: 12px 40px; */
-  width: 35%;
+  padding: 12px 60px;
   margin-top: 35px;
 }
 
