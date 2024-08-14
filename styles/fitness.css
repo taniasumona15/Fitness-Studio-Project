@@ -137,6 +137,8 @@
   font-size: 16px;
   font-weight: 400;
   margin: 40px 0;
+  width: 65%;
+  line-height: 30px;
 }
 .banner-btn{
   margin-top: 25px ;
@@ -1096,6 +1098,7 @@ border: 1px solid rgb(255, 255, 255, 0.1);
   
   .banner-subtitle{
     margin: 8px 0;
+    width: 90%;
   }
   .banner-btn{
     margin-top: 25px;
@@ -1109,8 +1112,14 @@ border: 1px solid rgb(255, 255, 255, 0.1);
   .banner-join-btn{
     font-size: 16px;
     font-weight: 400;
+    width: 50%;
     
   }
+
+.banner-dwn-btn{
+  width: 50%;
+}
+
 
   .banner-img-section img{
     width: 250px;
