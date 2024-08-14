@@ -612,6 +612,11 @@ td{
   text-align: left;
 }
 
+
+tbody tr td{
+  color: rgb(74, 74, 74);
+}
+
 .bmi-cal-chart{
   width: 50%;
 }
